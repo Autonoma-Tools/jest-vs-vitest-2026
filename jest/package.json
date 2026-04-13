@@ -1,0 +1,19 @@
+{
+  "name": "jest-vs-vitest-2026-jest",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Jest 30 benchmark config from the Jest vs Vitest blog post",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
+    "ts-jest": "^29.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "typescript": "^5.5.0"
+  }
+}

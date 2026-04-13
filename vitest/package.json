@@ -1,0 +1,18 @@
+{
+  "name": "jest-vs-vitest-2026-vitest",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Vitest 4 benchmark config from the Jest vs Vitest blog post",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "@vitest/coverage-v8": "^4.0.0",
+    "vitest": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}
